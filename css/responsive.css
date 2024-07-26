@@ -26,7 +26,7 @@ font-size: 0.88rem;
 line-height: 1.3rem;
 margin: 1rem;
 }
-.banner .banner-section .banner-content .sub-banner-content br{
+ br{
     display: none !important;
 }
 .banner-form form{
@@ -49,14 +49,32 @@ main .tour-section .popular-tour{
 font-size: 1.25rem;
 line-height: 1.6rem;
 }
-main .tour-section .popular-tour .tour-content .sub-tour-content{
+.sub-tour-content{
 font-size: 0.9rem;
 line-height: 1.5rem;
-margin: 1.5rem auto;
+margin: 1rem auto;
 }
 main .tour-section .popular-tour .tour-img img{
     width: 100%;
     margin-top: 2rem;
+}
+main .img-section .img-section-1{
+    grid-template-columns: repeat(1 , 1fr);
+}
+main .img-section .img-section-2{
+    grid-template-columns: repeat(1 , 1fr);
+}
+
+main .img-section .img-section-2 img{
+    grid-column: 1 / -1;
+  
+}
+main .img-section .img-section-3{
+    grid-template-columns: repeat(1 , 1fr);
+}
+main .img-section img{
+    height: 15rem;
+ 
 }
 
 }
