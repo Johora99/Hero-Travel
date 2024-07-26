@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mulish-font{
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+:root{
+    --btn-color:rgb(255, 255, 255);
+    --btn-bg:rgb(255, 84, 0);
+    --black-light:rgb(66, 66, 71);
+}
+
+/* common style start */
+.d-flex{
+    display: flex;
+    align-items: center;
+}
+.btn{
+color:var(--btn-color) ;
+font-size: 1.25rem;
+font-weight: 800;
+line-height: 25px;
+letter-spacing: 0%;
+text-align: center;
+border-radius: 0.5rem;
+background:var(--btn-bg) ;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.container{
+    max-width: 1170px;
+    width: 90%;
+    margin: auto;
+}
+/* common style end */
+
+/* header section start */
+ header .nav-section{
+    justify-content: space-between;
+    margin: 3rem auto;
+ }
+  .nav-section .logo .logo-title{
+         font-size: 2.25rem;
+         font-weight: 800;
+         line-height: 45px;
+         letter-spacing: 0%;
+  }
+  .logo-title .span{
+    color: var(--btn-bg);
+  }
+  .nav .nav-items .nav-item{
+    margin-right: 2.75rem;
+    
+  }
+  .nav-items .nav-item .nav-link{
+    color:var(--black-light);
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0%;
+  }
+  .nav-item .nav-link:hover{
+    color: var(--btn-bg);
+  }
+
+
+
+
+
+
+
+/* header section end */
