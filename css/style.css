@@ -16,6 +16,12 @@
     --black-light:rgb(66, 66, 71);
     --white-primary:rgb(255, 255, 255);
     --black-primary:rgb(19, 19, 24);
+    --card-border-1:rgba(251, 181, 99, 0.2);
+    --card-border-2:rgba(41, 206, 246, 0.2);
+    --card-border-3:rgba(233, 68, 68, 0.2);
+    --card-bg-1:rgba(251, 181, 99, 0.05);
+    --card-bg-2:rgba(41, 206, 246, 0.05);
+    --card-bg-3:rgba(233, 68, 68, 0.05);
 }
 
 /* common style start */
@@ -182,7 +188,7 @@ main .tour-section .popular-tour{
 }
 
 main .tour-section .popular-tour .tour-content .tour-items{
-  list-style-position: inside;
+  margin-left: 1rem;
 }
 
 main .destination .destination-content{
@@ -204,13 +210,13 @@ main .img-section .img-section-2{
   gap: 1rem;
   margin-bottom: 1rem;
 }
-.img-section-2 img:nth-child(1){
+.img-section-2 .img-1:nth-child(1){
   grid-column: 1 / 2;
 }
-.img-section-2 img:nth-child(2){
+.img-section-2 .img-1:nth-child(2){
   grid-column: 2 / 4;
 }
-.img-section-2 img:nth-child(3){
+.img-section-2 .img-1:nth-child(3){
   grid-column: 4 / 5;
 }
 main .img-section .img-section-3{
@@ -219,16 +225,74 @@ main .img-section .img-section-3{
   gap: 1rem;
   margin-bottom: 1rem;
 }
-.img-section img{
+.img-1{
+  position: relative;
+}
+.img-1 .img-title{
+  color: var(--white-primary);
+font-size: 1.75rem;
+font-weight: 800;
+line-height: 2.2rem;
+letter-spacing: 0%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50% , -50%);
+}
+.img-section .img-1 img{
   width: 100%;
   height: 18.75rem;
 }
+main .choose .choose-content{
+  text-align: center;
+}
+.card .card-title{
+  color: var(--black-primary);
+font-size: 1.5rem;
+font-weight: 800;
+line-height: 1.9rem;
+letter-spacing: 0%;
+}
+.sub-choose{
+  margin-top: 3rem;
+}
+.sub-choose .card-section-1{
+  gap: 1rem;
+}
+ .card{
+border-radius: 1rem;
+padding: 2rem;
+ }
+ .card .card-title{
+  color: var(--black-primary);
+font-size: 1.5rem;
+font-weight: 800;
+line-height: 1.9rem;
+letter-spacing: 0%;
+ }
+ .card img{
+  margin-bottom: 1rem;
+ }
+.sub-choose .card-section-1 .card:nth-child(1){
+border: 1px solid var(--card-border-1);
+background: var(--card-bg-1);
 
+}
+.sub-choose .card-section-1 .card:nth-child(2){
+border: 1px solid var(--card-border-2);
+background: var(--card-bg-2);
 
-
-
-
-
+}
+.card-section-2 .card{
+border: 1px solid var( --card-border-3);
+background: var(--card-bg-3);
+width: 50%;
+margin: 1rem auto;
+}
+main .deal .deal-content{
+  text-align: center;
+  margin: 5rem auto 3rem;
+}
 
 
 /* main section end */

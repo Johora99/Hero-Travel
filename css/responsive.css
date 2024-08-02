@@ -65,7 +65,7 @@ main .img-section .img-section-2{
     grid-template-columns: repeat(1 , 1fr);
 }
 
-main .img-section .img-section-2 img{
+main .img-section .img-section-2 .img-1{
     grid-column: 1 / -1;
   
 }
@@ -76,5 +76,25 @@ main .img-section img{
     height: 15rem;
  
 }
+.img-1 .img-title{
+ 
+font-size: 1.25rem;
 
+line-height: 1.6rem;
+
+}
+
+.sub-choose .card-section-1{
+ display: block;
+}
+.card-section-2 .card{
+    width: 100%;
+}
+.card{
+    margin-bottom: 1rem;
+}
+.card .card-title{
+font-size: 1.25rem;
+line-height: 1.6rem;
+}
 }
