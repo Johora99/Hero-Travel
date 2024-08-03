@@ -84,7 +84,7 @@ letter-spacing: 0%;
     justify-content: space-between;
     margin: 3rem auto;
  }
-  .nav-section .logo .logo-title{
+ .logo .logo-title{
          font-size: 2.25rem;
          font-weight: 800;
          line-height: 2.8rem;
@@ -427,4 +427,46 @@ font-weight: 800;
 line-height: 2.5rem;
 letter-spacing: 0%;
 }
+
 /* main section end */
+
+/* footer section start */
+footer{
+  background: rgba(19, 19, 24, 0.05);
+  padding: 5rem;
+}
+footer .footer-section .logo{
+  justify-content: center;
+ 
+}
+footer .footer-section .content-section{
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+.sub-tour-content.f-content{
+  opacity: 1;
+}
+.nav-items.f-items{
+  gap: 2rem;
+  margin: 2rem auto 3rem;
+  justify-content: center;
+}
+.fa-brands{
+  font-size: 1.5rem;
+  color: var(--black-primary);
+}
+.sub-tour-content.f-content.Reserved{
+  margin-top: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer section end */
